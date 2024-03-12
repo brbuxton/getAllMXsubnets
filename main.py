@@ -44,7 +44,7 @@ def get_network_name(network_id):
 
 
 def main():
-    org_id = '1492405'  # Replace 'YOUR_ORG_ID' with your actual Organization ID
+    org_id = 'YOUR_ORG_ID'  # Replace 'YOUR_ORG_ID' with your actual Organization ID
 
     # Prepare the CSV file for writing
     with open('meraki_mx_vlans_uplinks.csv', mode='w', newline='') as file:
